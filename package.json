@@ -1,0 +1,27 @@
+{
+  "name": "TDD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "factorial.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashinja/TDD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dashinja/TDD/issues"
+  },
+  "homepage": "https://github.com/dashinja/TDD#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
