@@ -6,7 +6,10 @@ describe('Completes factorial product of given number', function() {
     expect(factorial(4)).to.equal(24)
   })
   it('If n = 0, should return 1', function() {
-    expect(factorial(0)).to.equal(1)
+    expect(factorial(0)).to.equal(`Please select a valid number. (i.e. number >= 1)`)
+  })
+  it('If n = 1, should return 1', function() {
+    expect(factorial(1)).to.equal(1)
   })
   it('If n = 5, should return 120', function() {
     expect(factorial(5)).to.equal(120)
